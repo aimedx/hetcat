@@ -1,27 +1,48 @@
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">AI for Multidisciplinary Exploration and Discovery (AIMED) Workshop in Heterogeneous Catalysis</span></span></span></strong></span></span></p>
+---
+layout: default
+---
 
-<p style="text-align:center"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Organized by Hongliang Xin, John Kitchin, Neil Schweitzer, Nuria L&oacute;pez</span></span></span></span></span></p>
+<div class="default">
+  <img src="/images/aimed-workshop.jpg" alt="AI for Multidisciplinary Exploration and Discovery in Heterogeneous Catalysis">
+</div>
+<h1>AI for Multidisciplinary Exploration and Discovery (AIMED) in Heterogeneous Catalysis</h1>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Day 1</span></span></span></strong></span></span></p>
+<hr />
+<h2>Workshop Schedule</h2>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Topical Keynote Sessions</span></span></span></strong></span></span></p>
+<section>
+    <h3>Day 1: Topical Keynote Sessions</h3>
+    <ul>
+        <li>Materials & Knowledge Discovery</li>
+        <li>Machine Learning Potentials</li>
+        <li>Generative AI</li>
+        <li>Data & Software Infrastructures</li>
+        <li>Future Labs</li>
+    </ul>
+    <p>Evening: Reception & Early Career Investigators Poster Session</p>
+</section>
 
-<ul>
-	<li><span style="font-size:12pt"><span style="color:black"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Materials &amp; Knowledge Discovery</span></span></span></span></span></li>
-	<li><span style="font-size:12pt"><span style="color:black"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Machine Learning Potentials</span></span></span></span></span></li>
-	<li><span style="font-size:12pt"><span style="color:black"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Generative AI</span></span></span></span></span></li>
-	<li><span style="font-size:12pt"><span style="color:black"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Data &amp; Software Infrastructures</span></span></span></span></span></li>
-	<li><span style="font-size:12pt"><span style="color:black"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif">Future Labs</span></span></span></span></span></li>
-</ul>
+<section>
+    <h3>Day 2: Themed Panels and Breakout Session</h3>
+    <p>Panel 1: What are the technological barriers in AI that hinder achieving scientific breakthroughs, particularly in catalysis for sustainability?</p>
+    <p>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can help shape the vision in catalysis?</p>
+    <p>Afternoon: Breakout Session</p>
+</section>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Reception &amp; Early Career Investigators Poster Session</span></span></span></strong></span></span></p>
+<p>For more details and updates, please visit our official workshop webpage.</p>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Day 2</span></span></span></strong></span></span></p>
+<hr>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Themed Panels</span></span></span></strong></span></span></p>
+{% for post in site.posts %}
+<article class="post">
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Panel 1: </span></span></span></strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">What are the technological barriers in AI that hinder achieving scientific breakthroughs, particularly in catalysis for sustainability?</span></span></span></span></span></p>
+  <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Panel 2: </span></span></span></strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">What is the future of AI for driving scientific discovery, and how funding agencies can help shape the vision in catalysis?</span></span></span></span></span></p>
+  <div class="entry">
+    {{ post.excerpt }}
+  </div>
 
-<p><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><strong><span style="font-size:11.0pt"><span style="font-family:&quot;Arial&quot;,sans-serif"><span style="color:black">Breakout Session</span></span></span></strong></span></span></p>
+  <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+</article>
+{% endfor %}
+</div>
