@@ -12,22 +12,26 @@
             padding: 0;
         }
         .header {
-            padding: 10px;
             text-align: center;
+            padding: 10px;
             position: relative;
         }
         .header img {
             position: absolute;
             top: 10px;
-            left: 10px;
-            height: 60px; /* You can adjust the size as needed */
+            left: 50%;
+            transform: translateX(-50%);
+            height: 60px; /* Adjust the size as needed */
         }
         .header h1 {
             margin: 0;
             padding-top: 20px; /* Give space for the logo */
         }
         .schedule {
+            margin: 0 auto;
+            max-width: 800px; /* Adjust the max width as needed */
             padding: 20px;
+            text-align: center;
         }
         h2, h3, p, ul, li {
             color: #333; /* Default text color, can be changed as needed */
@@ -37,9 +41,11 @@
         }
         ul {
             list-style: inside;
+            padding: 0;
         }
         li {
             margin: 5px 0;
+            text-align: left;
         }
     </style>
 </head>
@@ -53,6 +59,7 @@
     <div class="schedule">
         <div class="day">
             <h2>Day 1</h2>
+            <h3>Opening Remarks</h3>
             <h3>Topical Keynote Sessions</h3>
             <ul>
                 <li>Materials & Knowledge Discovery</li>
@@ -71,6 +78,7 @@
                 <li>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can help shape the vision in catalysis?</li>
             </ul>
             <h3>Breakout Session</h3>
+            <h3>Concluding Remarks</h3>
         </div>
     </div>
 </body>
