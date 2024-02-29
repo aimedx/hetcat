@@ -10,34 +10,40 @@
             font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f5f5f5; /* Light grey background */
         }
-        .header {
+        .header, .footer {
             text-align: center;
-            padding: 10px;
-            position: relative;
+            padding: 20px;
+            background-color: #fff; /* White background */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
         }
-        .header img {
-            position: absolute;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+        .header img, .footer img {
             height: 60px; /* Adjust the size as needed */
         }
-        .header h1 {
+        .header h1, .footer h1 {
             margin: 0;
             padding-top: 20px; /* Give space for the logo */
+            font-size: 24px; /* Adjusted font size */
         }
         .schedule {
             margin: 0 auto;
             max-width: 800px; /* Adjust the max width as needed */
             padding: 20px;
-            text-align: center;
+            background-color: #fff; /* White background for content */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+            border-radius: 5px; /* Rounded corners */
+        }
+        .day {
+            text-align: left; /* Aligns text to the left */
+            padding-left: 50px; /* Adds space on the left */
+        }
+        .day:nth-child(odd) {
+            text-align: center; /* Center align for Day 1 and Day 2 */
+            padding-left: 0; /* Removes left padding for centered days */
         }
         h2, h3, p, ul, li {
             color: #333; /* Default text color, can be changed as needed */
-        }
-        h2 {
-            margin-top: 20px;
         }
         ul {
             list-style: inside;
@@ -45,7 +51,6 @@
         }
         li {
             margin: 5px 0;
-            text-align: left;
         }
     </style>
 </head>
@@ -80,6 +85,9 @@
             <h3>Breakout Session</h3>
             <h3>Concluding Remarks</h3>
         </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 AIMED Workshop. All rights reserved.</p>
     </div>
 </body>
 </html>
