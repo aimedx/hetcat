@@ -14,28 +14,28 @@
         }
 
         .banner {
-            position: relative; /* This is needed to position children absolutely within it */
-            background-image: url('banner.jpg');
+            position: relative;
+            background-image: url('images/banner.jpg');
             background-size: cover;
             background-position: center;
-            height: 200px; /* Adjust this value as needed */
+            height: 200px;
         }
 
         .navbar {
-            position: absolute; /* This positions the navbar within the banner */
-            bottom: 10px; /* Distance from the bottom of the banner */
-            right: 10px; /* Distance from the right side of the banner */
-            display: flex;
-            gap: 20px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin-bottom: 10px;
+            margin-right: 10px;
         }
 
         .navbar a {
             color: white;
             text-decoration: none;
             font-weight: 600;
-            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for legibility */
-            padding: 5px 10px; /* Padding inside the links */
-            border-radius: 5px; /* Rounded corners for aesthetics */
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            border-radius: 5px;
         }
 
         .header, .footer {
@@ -55,20 +55,6 @@
             margin: 0;
             padding-top: 20px;
             font-size: 24px;
-        }
-
-        .navbar {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            background-color: #007BFF;
-            padding: 10px 0;
-        }
-
-        .navbar a {
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
         }
 
         .content {
@@ -91,11 +77,7 @@
             padding-left: 0;
         }
 
-        h2,
-        h3,
-        p,
-        ul,
-        li {
+        h2, h3, p, ul, li {
             color: #333;
         }
 
@@ -123,31 +105,7 @@
         <p>Heterogeneous Catalysis</p>
     </div>
     <div class="content">
-        <div class="day">
-            <h2>Day 1</h2>
-            <h3>Opening Remarks</h3>
-            <h3>Topical Keynote Sessions</h3>
-            <ul>
-                <li>Materials & Knowledge Discovery</li>
-                <li>Machine Learning Potentials</li>
-                <li>Generative AI</li>
-                <li>Data & Software Infrastructures</li>
-                <li>Future Labs</li>
-            </ul>
-            <h3>Reception & Early Career Investigators Poster Session</h3>
-        </div>
-        <div class="day">
-            <h2>Day 2</h2>
-            <h3>Themed Panels</h3>
-            <ul>
-                <li>Panel 1: What are the technological barriers in AI that hinder achieving scientific breakthroughs,
-                    particularly in catalysis for sustainability?</li>
-                <li>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can
-                    help shape the vision in catalysis?</li>
-            </ul>
-            <h3>Breakout Session</h3>
-            <h3>Concluding Remarks</h3>
-        </div>
+        <!-- Content here -->
     </div>
     <div class="footer">
         <p>&copy; 2024 AIMED Workshop. All rights reserved.</p>
