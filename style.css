@@ -11,11 +11,11 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* Make sure to set a minimum height for the banner */
     min-height: 300px; /* Adjust based on your design */
     background-image: url('images/banner.jpg'); /* Example background */
     background-size: cover;
     background-position: center;
+    position: relative; /* Add this line */
 }
 
 .banner-text {
@@ -32,13 +32,32 @@ body {
     margin: 10px 0; /* Adjust spacing */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+/* Base font size */
+.banner-text h1 {
+    font-size: 2.5vw;
+}
+
+.banner-text p {
+    font-size: 1.5vw;
+}
+
+/* Limit the font size for very small devices */
+@media (max-width: 400px) {
     .banner-text h1 {
-        font-size: 24px; /* Smaller font size for smaller devices */
+        font-size: 12px; /* Minimum font size */
     }
     .banner-text p {
-        font-size: 16px;
+        font-size: 10px; /* Minimum font size */
+    }
+}
+
+/* Limit the font size for very large devices */
+@media (min-width: 1200px) {
+    .banner-text h1 {
+        font-size: 30px; /* Maximum font size */
+    }
+    .banner-text p {
+        font-size: 20px; /* Maximum font size */
     }
 }
 
@@ -91,11 +110,9 @@ body {
     max-width: 800px;
     padding: 20px;
     background-color: #fff; /* Keeps the background color white */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: left;
-    border-left: 2px solid #fff; /* Sets left border color to white */
-    border-right: 2px solid #fff; /* Sets right border color to white */
+    /* Remove box-shadow and border properties */
 }
 
 .day {
