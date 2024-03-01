@@ -10,45 +10,76 @@
             font-family: 'Open Sans', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5; /* Light grey background */
+            background-color: #f5f5f5;
         }
-        .header, .footer {
+
+        .header,
+        .footer {
             text-align: center;
             padding: 20px;
-            background-color: #fff; /* White background */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-        .header img, .footer img {
-            height: 60px; /* Adjust the size as needed */
+
+        .header img,
+        .footer img {
+            height: 60px;
         }
-        .header h1, .footer h1 {
+
+        .header h1,
+        .footer h1 {
             margin: 0;
-            padding-top: 20px; /* Give space for the logo */
-            font-size: 24px; /* Adjusted font size */
+            padding-top: 20px;
+            font-size: 24px;
         }
-        .schedule {
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #007BFF;
+            padding: 10px 0;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .content {
             margin: 0 auto;
-            max-width: 800px; /* Adjust the max width as needed */
+            max-width: 800px;
             padding: 20px;
-            background-color: #fff; /* White background for content */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow */
-            border-radius: 5px; /* Rounded corners */
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: left;
         }
+
         .day {
-            text-align: left; /* Aligns text to the left */
-            padding-left: 50px; /* Adds space on the left */
+            text-align: left;
+            padding-left: 50px;
         }
-        .day:nth-child(odd) {
-            text-align: center; /* Center align for Day 1 and Day 2 */
-            padding-left: 0; /* Removes left padding for centered days */
+
+        .day h2 {
+            text-align: center;
+            padding-left: 0;
         }
-        h2, h3, p, ul, li {
-            color: #333; /* Default text color, can be changed as needed */
+
+        h2,
+        h3,
+        p,
+        ul,
+        li {
+            color: #333;
         }
+
         ul {
             list-style: inside;
             padding: 0;
         }
+
         li {
             margin: 5px 0;
         }
@@ -59,9 +90,13 @@
         <img src="logo.png" alt="AIMED Workshop Logo">
         <h1>AI for Multidisciplinary Exploration and Discovery (AIMED)</h1>
         <p>Heterogeneous Catalysis</p>
-        <p>Organized by: Hongliang Xin, John Kitchin, Neil Schweitzer, Nuria López</p>
     </div>
-    <div class="schedule">
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="program.html">Program</a>
+        <a href="about.html">About</a>
+    </div>
+    <div class="content">
         <div class="day">
             <h2>Day 1</h2>
             <h3>Opening Remarks</h3>
@@ -79,8 +114,10 @@
             <h2>Day 2</h2>
             <h3>Themed Panels</h3>
             <ul>
-                <li>Panel 1: What are the technological barriers in AI that hinder achieving scientific breakthroughs, particularly in catalysis for sustainability?</li>
-                <li>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can help shape the vision in catalysis?</li>
+                <li>Panel 1: What are the technological barriers in AI that hinder achieving scientific breakthroughs,
+                    particularly in catalysis for sustainability?</li>
+                <li>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can
+                    help shape the vision in catalysis?</li>
             </ul>
             <h3>Breakout Session</h3>
             <h3>Concluding Remarks</h3>
