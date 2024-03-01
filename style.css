@@ -51,16 +51,17 @@ body {
     display: flex;
     gap: 20px;
     z-index: 1000; /* Ensures it is above other elements */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px; /* Add some padding around the links */
+    border-radius: 5px; /* Optional: rounds the corners of the navbar background */
 }
 
 .navbar a {
-    color: white;
+    color: white; /* This color should now stand out against the semi-transparent background */
     text-decoration: none;
     font-weight: 600;
-    background-color: transparent;
     padding: 5px 10px;
     border-radius: 5px;
-    margin-right: 10px; /* Add spacing between links */
 }
 
 /* Last link in the navbar should not have right margin */
