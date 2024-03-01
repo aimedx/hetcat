@@ -26,38 +26,30 @@ body {
     text-align: center;
 }
 
-.banner-text h1,
-.banner-text p {
-    color: white; /* Choose a color that contrasts well with your banner image */
+/* Adjust base font size for better visibility */
+.banner-text h1, .banner-text p {
+    font-size: 3vw; /* Increase base size */
+    color: white; /* Ensure text color is white */
     margin: 10px 0; /* Adjust spacing */
 }
 
-/* Base font size */
-.banner-text h1 {
-    font-size: 2.5vw;
-}
-
-.banner-text p {
-    font-size: 1.5vw;
-}
-
-/* Limit the font size for very small devices */
+/* Specific adjustments for very small devices */
 @media (max-width: 400px) {
     .banner-text h1 {
-        font-size: 12px; /* Minimum font size */
+        font-size: 14px; /* Adjusted minimum font size for better readability */
     }
     .banner-text p {
-        font-size: 10px; /* Minimum font size */
+        font-size: 12px; /* Adjusted minimum font size for better readability */
     }
 }
 
-/* Limit the font size for very large devices */
+/* Specific adjustments for very large devices */
 @media (min-width: 1200px) {
     .banner-text h1 {
-        font-size: 30px; /* Maximum font size */
+        font-size: 35px; /* Adjusted maximum font size for better visibility */
     }
     .banner-text p {
-        font-size: 20px; /* Maximum font size */
+        font-size: 25px; /* Adjusted maximum font size for better readability */
     }
 }
 
