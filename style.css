@@ -30,6 +30,12 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 5px;
+    margin-right: 10px; /* Add spacing between links */
+}
+
+/* Last link in the navbar should not have right margin */
+.navbar a:last-child {
+    margin-right: 0;
 }
 
 .header, .footer {
