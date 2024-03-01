@@ -1,24 +1,83 @@
-/* Apply general body styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    /* Add other body styles here */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
 }
 
-/* Styling for all headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700; /* Adjust weight as needed */
+.banner {
+    position: relative;
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
 }
 
-/* Specifically for h2 to mimic a common style */
-h2 {
-    font-weight: 400; /* Adjust based on your preference */
-    color: #0056b3; /* Example color - adjust as needed */
+.navbar {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    gap: 20px;
 }
 
-/* Additional element styles */
-p, li {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400; /* Regular weight */
-    /* Add more styles as needed */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.header, .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header img, .footer img {
+    height: 60px;
+}
+
+.header h1, .footer h1 {
+    margin: 0;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-align: left;
+}
+
+.day {
+    text-align: left;
+    padding-left: 50px;
+}
+
+.day h2 {
+    text-align: center;
+    padding-left: 0;
+}
+
+h2, h3, p, ul, li {
+    color: #333;
+}
+
+ul {
+    list-style: inside;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
 }
