@@ -59,10 +59,12 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    background-color: #fff; /* Sets the background color to white */
+    background-color: #fff; /* Keeps the background color white */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: left;
+    border-left: 2px solid #fff; /* Sets left border color to white */
+    border-right: 2px solid #fff; /* Sets right border color to white */
 }
 
 .day {
@@ -86,4 +88,11 @@ ul {
 
 li {
     margin: 5px 0;
+}
+
+@media (max-width: 600px) {
+    .banner-image {
+        width: 100%; /* Ensures the image is full-width on small screens */
+        height: auto; /* Maintains the aspect ratio */
+    }
 }
