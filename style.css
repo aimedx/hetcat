@@ -59,7 +59,7 @@ body {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    background-color: #fff;
+    background-color: transparent; /* Changed from #fff to transparent */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     text-align: left;
