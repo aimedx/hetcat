@@ -26,10 +26,11 @@ menu_item.forEach((item) => {
 
 document.addEventListener('DOMContentLoaded', function() {
   const organizers = [
-	{ name: 'HongLiang Xin', desc: 'Lorem ipsum dolor sit amet consectetur' },
-	{ name: 'John Kitchin', desc: 'Lorem ipsum dolor sit amet consectetur' },
-	{ name: 'Nuria Lopez', desc: 'Lorem ipsum dolor sit amet consectetur' },
-	{ name: 'Neil Schweitzer', desc: 'Lorem ipsum dolor sit amet amet consectetur' }
+	{ name: 'HongLiang', lName: 'Xin', affiliation: 'VT', image: './img/Hongliang Xin.jpeg', profileUrl: 'https://che.vt.edu/People/faculty/Xin.html', email: 'hxin@vt.edu' },
+	{ name: 'John', lName: 'Kitchin', affiliation: 'CMU', image: './img/John Kitchin.png', profileUrl: 'https://engineering.cmu.edu/directory/bios/kitchin-john.html',  email: 'jkitchin@andrew.cmu.edu'},
+	{ name: 'Núria', lName: 'López', affiliation: 'ICIQ', image: './img/Nuria Lopez.jpeg', profileUrl: 'https://www.iciq.org/research/research_group/prof-nuria-lopez/',  email: 'nlopez@iciq.es' },
+	{ name: 'Neil', lName: 'Schweitzer', affiliation: 'Northwestern', image: './img/Neil Schweitzer.jpeg', profileUrl: 'https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/schweitzer-neil.html',  email: 'neil.schweitzer@northwestern.edu' }
+	
   ];
 
   const speakers = [
@@ -102,7 +103,7 @@ function renderCards(containerId, items) {
   }
   
 
-//   renderCards('organizerCards', organizers);
+  renderCards('organizerCards', organizers);
   renderCards('speakerCards', speakers);
   renderCards('presenterCards', presenters);
   
