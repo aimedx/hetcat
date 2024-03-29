@@ -1,324 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <title>AIMED Workshop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIMED Workshop on Heterogeneous Catalysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
 </head>
-
-
 <body>
-  <!-- Header -->
-  <section id="header">
-    <div class="header container">
-      <div class="nav-bar">
-        <div class="brand">
-          <a href="#hero">
-            <h1>AIMED</h1>
-          </a>
+    <div class="banner">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="program.html">Program</a>
+            <a href="venue.html">Venue</a>
+            <a href="about.html">About</a>
         </div>
-        <div class="nav-list">
-          <div class="hamburger">
-            <div class="bar"></div>
-          </div>
-          <ul>
-            <li><a href="#hero" data-after="Home">Home</a></li>
-            <li><a href="#program" data-after="Service">Program</a></li>
-            <!-- <li><a href="#projects" data-after="Projects">Projects</a></li> -->
-            <li><a href="#about" data-after="About">Venue</a></li>
-            <li><a href="#contact" data-after="Contact">About</a></li>
-          </ul>
+        <div class="banner-text">
+            <h1>AI for Multidisciplinary Exploration and Discovery (AIMED)</h1>
+            <h1>Workshop on Heterogeneous Catalysis            </h1>
+            <p>Oct. 10 - 11, 2024       Chicago & Webinar</p>
         </div>
-      </div>
     </div>
-  </section>
-  <!-- End Header -->
- 
-  <!-- Hero Section  -->
-  <section id="hero">
-    <div class="hero container">
-      <div>
-        <h1>AI for Multidisciplinary Exploration and Discovery (AIMED) <span></span></h1>
-        <h1>Workshop on Heterogeneous Catalysis <span></span></h1>
-        <h1>Oct 10th,11th 2024 Chicago & Webinar<span></span></h1>
-        <!-- <a href="#projects" type="button" class="cta">Online Registration</a> -->
-      </div>
+    <div class="header">
+        <h3>Organizing Committee</h3>
+        <img src="images/team.jpg" alt="Organizing Team" style="width: 50vw; height: auto;">
     </div>
-  </section>
-  <!-- End Hero Section  -->
-  <section id="program" style="padding-top: 80px;">
-    <h1 class="section-title">Progr<span>a</span>m</h1>
-    <!-- <div class="agenda container1">
-        <div class="agenda-cards">
-            <div id="day1Card" class="agenda-card"></div>
-            <div id="day2Card" class="agenda-card"></div>
+    <div class="content">
+        <div class="day">
+            <h3>Confirmed Speakers/Panelists</h3>
+            <ul>
+                <li>AJ Medford (GT)</li>
+		<li>Amir Barati Farimani (CMU)</li>
+                <li>Anatoly Frenkel (Stony Brook/BNL)</li>
+                <li>Andy Peterson (Brown)</li>
+                <li>Boris Kozinsky (Harward)</li>
+                <li>Bryan Goldsmith (Michigan)</li>
+                <li>Chris Wolverton (Northwestern)</li>
+                <li>Johannes Voss (SLAC)</li>
+                <li>Joseph Montoya (TRI)</li>
+                <li>Kamal Choudhary (NIST)</li>
+                <li>Kirsten Winther (SLAC)</li>
+                <li>Maria Chan (ANL)</li>		
+                <li>Milad Abolhasani (NCSU)</li>
+                <li>Paulami Majumdar (Dow)</li>
+                <li>Paul Kenis (UIUC, Tentative)</li>		
+                <li>Shyue Ping Ong (UCSD)</li>
+                <li>Stefano Curtarolo (Duke)</li>		
+                <li>Suljo Linic (Michigan)</li>		
+                <li>Teodoro Laino (IBM Research Zurich)</li>
+                <li>Tian Xie (Microsoft, UK)</li>
+                <li>Xiaonan Wang (Tsinghua, China)</li>
+                <li>Wendy Shaw (PNNL)</li>		
+                <li>Zack Ulissi (Meta)</li>
+            </ul>
+            <h3>Confirmed Early Career Poster Presenters</h3>
+            <ul>
+                <li>Marc Porosoff (U of Rochester)</li>
+                <li>Daniel Schwalbe-Koda (UCLA)</li>
+                <li>Evan Spotte-Smith (CMU)</li>
+                <li>Tibor Szilvasi (UA)</li>
+                <li>Emma Hu (GT)</li>
+                <li>Fanglin Che (UML)</li>
+		<li>Zisheng Zhang (UCLA)</li>
+                <li>Brandon Bukowski (JHU) </li>
+                <li>Kasun Gunasooriya (OU)</li>
+                <li>Pengfei Ou (Northwestern)</li>
+                <li>Tyler Josephson (UMBC)</li>
+                <li>Zisheng Zhang (UCLA)</li>
+                <li>Rui Ding (UChicago)</li>								
+            </ul>
         </div>
-    </div> -->
-    <div class="schedule-wrapper">
-      <!-- Day 1 Schedule -->
-      <div class="day-schedule">
-          <h2 class="day-title">Day 1 - Oct. 10, 2024</h2>
-          <div class="events">
-              <div class="time-line"></div>
-  
-              <div class="event-group">
-                  <p class="session-block"><span class="time">7:00 - 8:00 am: Breakfast</span></p>
-                  <p class="session-block"><span class="time">8:00 - 8:10 am: Opening Remarks</span></p>
-              </div>
-              <div class="event-group">
-                  <!-- AM 1 Session -->
-                  <div class="session-heading">AM 1 Session: Foundational Models</div>
-                  <p class="chair">Chair: John Kitchin, Carnegie Mellon University</p>
-                  <p class="sub-session"><span class="time">8:10 - 8:30 am: Boris Kozinsky, Harvard University</span></p>
-                  <p class="sub-session"><span class="time">8:30 - 8:50 am: Andy Peterson, Brown University</span></p>
-                  <p class="sub-session"><span class="time">8:50 - 9:10 am: Shyue Ping Ong, University of California, San Diego</span></p>
-                  <p class="sub-session"><span class="time">9:10 - 9:30 am: Teodoro Laino, IBM Research Europe - Zurich</span></p>
-                  <p class="sub-session"><span class="time">9:30 - 9:50 am: Nongnuch Artrith, Utrecht University</span></p>
-  
-                </div>
-                <div class="event-group">
-                  <p class="session-block"><span class="time">9:50 - 10:20 pm: 30 mins Coffee Break</span></p>
-                </div>
-                <div class="event-group">  
-                  <!-- AM 2 Session -->
-                  <div class="session-heading">AM 2 Session: Materials & Knowledge Discovery</div>
-                  <p class="chair">Chair: Hongliang Xin, Virginia Tech</p>
-                  <p class="sub-session"><span class="time">10:20 - 10:40 am: Anatoly Frenkel, Stony Brook University</span></p>
-                  <p class="sub-session"><span class="time">10:40 - 11:00 am: Bryan Goldsmith, University of Michigan</span></p>
-                  <p class="sub-session"><span class="time">11:00 - 11:20 am: Amir Barati Farimani, Carnegie Mellon University</span></p>
-                  <p class="sub-session"><span class="time">11:20 - 11:40 am: Kirsten Winther, SLAC/Stanford University</span></p>
-                  <p class="sub-session"><span class="time">11:40 - 12:00 pm: Hao Li, Tohoku University</span></p>
-                </div>
-                <div class="event-group">  
-                  <!-- Lunch -->
-                  <p class="session-block"><span class="time">12:00 - 1:30 pm: Lunch</span></p>
-                </div>
-                <div class="event-group">  
-                  <!-- PM 1 Session -->
-                  <div class="session-heading">PM 1 Session: Data & Software Infrastructures</div>
-                  <p class="chair">Chair: Núria López, Institute of Chemical Research of Catalonia</p>
-                  <p class="sub-session"><span class="time">1:30 - 1:50 pm: Johannes Voss, SLAC/Stanford University</span></p>
-                  <p class="sub-session"><span class="time">1:50 - 2:10 pm: Chris Wolverton, Northwestern University</span></p>
-                  <p class="sub-session"><span class="time">2:10 - 2:30 pm: Stefano Curtarolo, Duke University</span></p>
-                  <p class="sub-session"><span class="time">2:30 - 2:50 pm: Kamal Choudhary, National Institute of Standards and Technology</span></p>
-                  <p class="sub-session"><span class="time">2:50 - 3:10 pm: Joseph Montoya, Toyota Research Institute</span></p>
-                </div>
-                <div class="event-group">  
-                  <!-- Lunch -->
-                  <p class="session-block"><span class="time">3:10 - 3:40 pm: 30 mins Coffee Break</span></p>
-                </div>
-                <div class="event-group"> 
-                  <!-- PM 2 Session -->
-                  <div class="session-heading">PM 2 Session: Future Labs</div>
-                  <p class="chair">Chair: Neil Schweitzer, Northwestern University</p>
-                  <p class="sub-session"><span class="time">3:40 - 4:00 pm: Milad Abolhasani, North Carolina State University</span></p>
-                  <p class="sub-session"><span class="time">4:00 - 4:20 pm: Shijing Sun, University of Washington</span></p>
-                  <p class="sub-session"><span class="time">4:20 - 4:40 pm: Paulami Majumdar, Dow</span></p>
-                  <p class="sub-session"><span class="time">4:40 - 5:00 pm: Chong Liu, University of California, Los Angeles</span></p>
-                </div>
-                <div class="event-group">  
-                  <!-- Reception & Poster Session -->
-                  <p class="session-heading"><span class="time">5:00 - 7:00 pm:</span> Reception & Early Career Investigators Poster Session</p>
-                  <p class="sub-session"><span class="time">Marc Porosoff, University of Rochester</span></p>
-                  <p class="sub-session"><span class="time">Daniel Schwalbe-Koda, University of California, Los Angeles</span></p>
-                  <p class="sub-session"><span class="time">Evan Spotte-Smith, Carnegie Mellon University</span></p>
-                  <p class="sub-session"><span class="time">Tibor Szilvasi, University of Alabama</span></p>
-                  <p class="sub-session"><span class="time">Emma Hu, Georgia Institute of Technology</span></p>
-                  <p class="sub-session"><span class="time">Tyler Josephson, University of Maryland, Baltimore County</span></p>
-                  <p class="sub-session"><span class="time">Fanglin Che, University of Massachusetts, Lowell</span></p>
-                  <p class="sub-session"><span class="time">Zisheng Zhang, University of California, Los Angeles</span></p>
-                  <p class="sub-session"><span class="time">Rui Ding, University of Chicago</span></p>
-                  <p class="sub-session"><span class="time">Brandon Bukowski, Johns Hopkins University</span></p>
-                  <p class="sub-session"><span class="time">Kasun Gunasooriya, The University of Oklahoma</span></p>
-                  <p class="sub-session"><span class="time">Pengfei Ou, Northwestern University</span></p>
-                  
-                  <p class="session-block"><span class="time">7:00 - 9:00 pm: Dinner</span></p>
-              </div>
-          </div>
-      </div>
-  
-      <div class="day-schedule">
-          <h2 class="day-title">Day 2 - Oct. 11, 2024</h2>
-          <div class="events">
-              <div class="time-line"></div>
-  
-              <!-- Breakfast -->
-              <div class="event-group">
-                  <p class="session-block"><span class="time">7:00 - 8:00 am: Breakfast</span></p>
-              </div>
-              
-              <!-- Panel 1 -->
-              <div class="event-group">
-                  <p class="session-heading">Panel 1: What are the technological gaps and barriers in AI that hinder achieving scientific breakthroughs, particularly in catalysis for a sustainable future?</p>
-                  <p class="chair">Moderator: Hongliang Xin, Virginia Tech</p>
-                  <div class="sub-session">
-                    <p class="time">8:00 - 8:40 am:</p>
-                    <div class="discussion-participants">
-                        <p class="participant">Paul Kenis (Tentatively), University of Illinois Urbana-Champaign</p>
-                        <p class="participant">Maria Chan, Argonne National Laboratory</p>
-                        <p class="participant">Xiaonan Wang, Tsinghua University</p>
-                        <p class="participant">Zack Ulissi, Meta</p>
-                    </div>
-                  </div>
-                  <div class="sub-session">
-                      <p class="time-event"><span class="time">8:40 - 9:40 am: Panel Discussion</span></p>
-                  </div>
-              </div>
-              
-              <!-- Panel 2 -->
-        <!-- Panel 2 -->
-              <div class="event-group">
-                  <p class="session-heading">Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can help shape the vis/ion in catalysis?</p>
-                  <p class="chair">Moderator: John Kitchin, Carnegie Mellon University</p>
-                  <div class="sub-session">
-                      <p class="time">10:10 - 10:50 am:</p>
-                      <div class="discussion-participants">
-                          <p class="participant">Suljo Linic, University of Michigan</p>
-                          <p class="participant">Wendy Shaw, Pacific Northwest National Laboratory</p>
-                          <p class="participant">AJ Medford, Georgia Institute of Technology</p>
-                          <p class="participant">Tian Xie, Microsoft Research</p>
-                      </div>
-                  </div>
-                  <div class="sub-session">
-                      <p class="time-event"><span class="time">10:50 - 11:50 am:</span> Panel Discussion</p>
-                  </div>
-              </div>
-  
-              <!-- Concluding Remarks -->
-              <div class="event-group">
-                  <p class="session-block"><span class="time">11:50 am - 12:00 pm: Concluding Remarks</span></p>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-  <!-- Service Section -->
-  <section id="services">
-    <div class="services container">
-      <div class="service-top">
-        <h1 class="section-title">Organ<span>i</span>zers</h1>
-        
-      </div>
-      <div class="service-bottom">
-        <a href="https://che.vt.edu/People/faculty/Xin.html" target="_blank" rel="noopener noreferrer" class="service-item">
-          <div class="icon"><img src="./img/Hongliang Xin.jpeg" alt="Hongliang Xin"/></div>
-          <h2>Hongliang Xin</h2>
-          <p>VT</p>
-        </a>
-        
-        <a href="https://engineering.cmu.edu/directory/bios/kitchin-john.html" target="_blank" rel="noopener noreferrer" class="service-item">
-          <div class="icon"><img src="./img/John Kitchin.png" alt="John Kitchin"/></div>
-          <h2>John Kitchin</h2>
-          <p>CMU</p>
-        </a>
-        
-        <a href="https://www.iciq.org/research/research_group/prof-nuria-lopez/" target="_blank" rel="noopener noreferrer" class="service-item">
-          <div class="icon"><img src="./img/Nuria Lopez.jpeg" alt="Núria López"/></div>
-          <h2>Núria López</h2>
-          <p>ICIQ</p>
-        </a>
-        
-        <a href="https://www.mccormick.northwestern.edu/research-faculty/directory/affiliated/schweitzer-neil.html" target="_blank" rel="noopener noreferrer" class="service-item">
-          <div class="icon"><img src="./img/Neil Schweitzer.jpeg" alt="Neil Schweitzer"/></div>
-          <h2>Neil Schweitzer</h2>
-          <p>Northwestern</p>
-        </a>
-    </div>
-    
-      <h1 style="margin-top: 50px;" class="section-title">Speakers/Panelists</h1>
-     
-    <!-- <div id="organizerCards" class="service-bottom"></div> -->
-    <div id="speakerCards" class="service-bottom"></div>
-
-    <div><h1 style="margin-top: 50px;" class="section-title">Early Career Poster Presenters</h1></div>
-    <div id="presenterCards" class="service-bottom"></div>
-     </div>
-
-    </div>
-    </section>
- 
-  
-  <!-- End Service Section -->
-
-
-  <!-- About Section -->
- 
-  <section id="about">
-    <div class="about container">
-      <div class="col-left">
-        <div class="about-img">
-          <img src="./img/IMG3.png" alt="img">
+        <div class="day">
+            <h2>Day 1</h2>
+            <h3>Opening Remarks</h3>
+            <h3>Topical Keynote Sessions</h3>
+            <ul>
+                <li>Foundational Models</li>
+		<li>Materials & Knowledge Discovery</li>
+                <li>Data & Software Infrastructures</li>
+                <li>Future Labs</li>
+            </ul>
+            <h3>Reception & Early Career Investigators Poster Session</h3>
         </div>
-      </div>
-      <div class="col-right">
-        <h1 class="section-title">Venu<span>E</span></h1>
-        <p>Information about the venue, including location, travel guidance, and accommodations, will be provided here.</p>
-        <a href="#" id="showHotelsLink"><i class="fas fa-hotel"></i> Show Nearby Hotels</a>
-      </div>
-    </div>
-  </section>  
-  
-  <!-- Hidden dialog box for displaying hotel details -->
-  <div id="hotelDetailsModal" class="modal">
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <h2>Nearby Hotels</h2>
-      <div id="hotelDetails"></div>
-    </div>
-  </div>
-  
-  <!-- End About Section -->
-
-  <!-- Contact Section -->
-  <section id="contact">
-    <div class="contact container">
-      <div>
-        <h1 class="section-title">About</h1>
-      </div>
-      <h1>About the Workshop<br/>
-        This workshop is designed to explore the evolving role of artificial intelligence (AI) for accelerating scientific exploration and discovery in heterogeneous catalysis. The event will bring together experts and enthusiasts from various disciplines to discuss the latest advancements, applications, and future potential of AI in catalysis.</h1>
-        <br>
-        <br>
-      <!-- <div class="contact-items">
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
-          <div class="contact-info">
-            <h1>Phone</h1>
-            <h2></h2>
-            <h2>+1 234 123 1234</h2>
-          </div>
+        <div class="day">
+            <h2>Day 2</h2>
+            <h3>Themed Panels</h3>
+            <ul>
+                <li>Panel 1: What are the technological barriers in AI that hinder achieving scientific breakthroughs,
+                    particularly in catalysis for sustainability?</li>
+                <li>Panel 2: What is the future of AI for driving scientific discovery, and how funding agencies can
+                    help shape the vision in catalysis?</li>
+            </ul>
+            <h3>Breakout Session</h3>
+            <h3>Concluding Remarks</h3>
         </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
-          <div class="contact-info">
-            <h1>Email</h1>
-            <h2></h2>
-            <h2>abcd@gmail.com</h2>
-          </div>
-        </div>
-        <div class="contact-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
-          <div class="contact-info">
-            <h1>Address</h1>
-            <h2></h2>
-          </div>
-        </div>
-      </div> -->
     </div>
-  </section>
-  <!-- End Contact Section -->
-
-  <!-- Footer -->
-  <section id="footer">
-    <div class="footer container">
-      <p>© 2024 AIMED Workshop. All rights reserved</p>
+    <div class="footer">
+        <p>&copy; 2024 AIMED Workshop. All rights reserved.</p>
     </div>
-  </section>
-  <!-- End Footer -->
-  <script src="./app.js"></script>
 </body>
-
 </html>
