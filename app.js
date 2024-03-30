@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	{ name: 'Suljo', lName: 'Linic', affiliation: 'Michigan', image: './img/Speakers/Suljo Linic.jpeg' , profileUrl: 'https://che.engin.umich.edu/people/linic-suljo/',  email: 'linic@umich.edu'},
 	{ name: 'Teodoro', lName: 'Laino', affiliation: 'IBM Research, Zurich', image: './img/Speakers/Teodoro Laino.jpeg' , profileUrl: 'https://research.ibm.com/people/teodoro-laino',  email: 'teo@zurich.ibm.com'},
 	{ name: 'Tian', lName: 'Xie', affiliation: 'Microsoft, UK', image: './img/Speakers/Tian Xie.jpeg' , profileUrl: 'https://www.microsoft.com/en-us/research/people/tianxie/',  email: 'tianxie@microsoft.com'},
-	{ name: 'Xiaonan', lName: 'Wang', affiliation: 'Tsinghua, China', image: './img/Speakers/Xiaonan Wang.webp' , profileUrl: 'https://www.smartsystemsengineering.com/',  email: 'wangxiaonan@tsinghua.edu.cn'},
+	{ name: 'Xiaonan', lName: 'Wang', affiliation: 'Tsinghua, China', image: './img/Speakers/Xiaonan Wang.jpeg' , profileUrl: 'https://www.smartsystemsengineering.com/',  email: 'wangxiaonan@tsinghua.edu.cn'},
 	{ name: 'Wendy', lName: 'Shaw', affiliation: 'PNNL', image: './img/Speakers/Wendy Shaw.jpeg' , profileUrl: 'https://www.pnnl.gov/people/wendy-shaw',  email: 'wendy.shaw@pnnl.gov'},
 	{ name: 'Zack', lName: 'Ulissi', affiliation: 'Meta', image: './img/Speakers/Zack Ulissi.jpeg' , profileUrl: 'https://zulissi.github.io/',  email: 'zulissi@meta.com'},
 	{ name: 'Nongnuch', lName: 'Artrith', affiliation: 'Utrecht', image: './img/Speakers/Nongnuch Artrith.jpeg' , profileUrl: 'https://www.uu.nl/staff/NArtrith',  email: 'n.artrith@uu.nl'},
