@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	{ name: 'Chris', lName: 'Wolverton', affiliation: 'Northwestern', image: './img/Speakers/Chris Wolverton.jpeg' , profileUrl: 'https://stanford.edu/~vossj/',  email: 'c-wolverton@northwestern.edu'},
 	{ name: 'Johannes', lName: 'Voss', affiliation: 'SLAC', image: './img/Speakers/Johannes Voss.jpeg' , profileUrl: 'https://stanford.edu/~vossj/',  email: 'vossj@slac.stanford.edu'},
 	{ name: 'Joseph', lName: 'Montoya', affiliation: 'TRI', image: './img/Speakers/Joseph Montoya.jpeg' , profileUrl: 'https://www.tri.global/about-us/dr-joseph-montoya',  email: ''},
-	{ name: 'Kamal', lName: 'Choudhary', affiliation: 'NIST', image: './img/Speakers/Kamal Choudhary.jpeg' , profileUrl: 'https://mems.duke.edu/faculty/stefano-curtarolo',  email: 'kamal.choudhary@nist.gov'},
+	{ name: 'Kamal', lName: 'Choudhary', affiliation: 'NIST', image: './img/Speakers/Kamal Choudhary.jpeg' , profileUrl: 'https://www.nist.gov/people/kamal-choudhary',  email: 'kamal.choudhary@nist.gov'},
 	{ name: 'Kirsten', lName: 'Winther', affiliation: 'SLAC', image: './img/Speakers/Kirsten Winther.jpeg' , profileUrl: 'https://suncat.stanford.edu/people/kirsten-winther',  email: 'winther@stanford.edu'},
 	{ name: 'Maria', lName: 'Chan', affiliation: 'ANL', image: './img/Speakers/Maria Chan.jpeg' , profileUrl: 'https://www.anl.gov/profile/maria-k-chan',  email: 'mchan@​anl.​gov'},
 	{ name: 'Milad', lName: 'Abolhasani', affiliation: 'NCSU', image: './img/Speakers/Milad Abolhasani.jpeg' , profileUrl: 'https://www.cbe.ncsu.edu/person/mabolha/',  email: 'abolhasani@ncsu.edu'},
