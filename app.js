@@ -81,6 +81,7 @@ const presenters = [
 
 function renderCards(containerId, items) {
 	const container = document.getElementById(containerId);
+	container.innerHTML = '';
 	items.forEach(item => {
 	  const card = document.createElement('div');
 	  card.classList.add('card');
@@ -107,10 +108,23 @@ function renderCards(containerId, items) {
   renderCards('speakerCards', speakers);
   renderCards('presenterCards', presenters);
   
+  
   // Add click event listener to the "Show Nearby Hotels" link
   document.getElementById("showHotelsLink").addEventListener("click", showHotelDetails);
   
 });
+
+function toggleSpeakers() {
+	const speakerCards = document.getElementById('speakerCards');
+	const toggleButton = document.getElementById('toggleSpeakerCards');
+	if (toggleButton.innerText === 'More ↓') {
+	  speakerCards.style.maxHeight = `${speakerCards.scrollHeight}px`;
+	  toggleButton.innerText = 'Less ↑';
+	} else {
+	  speakerCards.style.maxHeight = '760px'; // Set back to the original max height
+	  toggleButton.innerText = 'More ↓';
+	}
+  }
 
 function renderCards(containerId, items) {
 	const container = document.getElementById(containerId);
@@ -211,20 +225,6 @@ function showHotelDetails(event) {
 	  ]
 	};
   
-	// function renderAgendaDay(containerId, dayItems) {
-	//   const container = document.getElementById(containerId);
-	//   let content = `<h2>${containerId === 'day1Card' ? 'Day 1' : 'Day 2'}</h2><ul>`;
-	//   dayItems.forEach(item => {
-	// 	// Check if item is a sub-section
-	// 	const isSubSection = ["Foundational Models", "Materials & Knowledge Discovery", "Data & Software Infrastructures", "Future Labs"].includes(item);
-	// 	content += `<li${isSubSection ? ' class="sub-section"' : ''}>${item}</li>`;
-	//   });
-	//   content += '</ul>';
-	//   container.innerHTML = content;
-	// }
-  
-	// renderAgendaDay('day1Card', agenda.day1);
-	// renderAgendaDay('day2Card', agenda.day2);
   });
   
   
