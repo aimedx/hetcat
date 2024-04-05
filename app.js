@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	{ name: 'Andy', lName: 'Peterson', affiliation: 'Brown', image: './img/Speakers/Andy Peterson.jpeg', profileUrl: 'https://engineering.brown.edu/people/andrew-peterson',  email: 'Andrew_Peterson@brown.edu' },
 	{ name: 'Boris', lName: 'Kozinsky', affiliation: 'Harvard', image: './img/Speakers/Boris Kozinsky.webp' , profileUrl: 'https://seas.harvard.edu/person/boris-kozinsky',  email: 'bkoz@seas.harvard.edu'},
 	{ name: 'Bryan', lName: 'Goldsmith', affiliation: 'Michigan', image: './img/Speakers/Bryan Goldsmith.jpeg' , profileUrl: 'https://che.engin.umich.edu/people/goldsmith-bryan/',  email: 'bgoldsm@umich.edu'},
-	{ name: 'Chris', lName: 'Wolverton', affiliation: 'Northwestern', image: './img/Speakers/Chris Wolverton.jpeg' , profileUrl: 'https://stanford.edu/~vossj/',  email: 'c-wolverton@northwestern.edu'},
+	{ name: 'Andrew', lName: 'Rosen', affiliation: 'Princeton', image: './img/Speakers/Andrew Rosen.jpg' , profileUrl: 'https://cbe.princeton.edu/people/andrew-rosen',  email: 'asrosen@princeton.edu'},
 	{ name: 'Johannes', lName: 'Voss', affiliation: 'SLAC', image: './img/Speakers/Johannes Voss.jpeg' , profileUrl: 'https://stanford.edu/~vossj/',  email: 'vossj@slac.stanford.edu'},
 	{ name: 'Joseph', lName: 'Montoya', affiliation: 'TRI', image: './img/Speakers/Joseph Montoya.jpeg' , profileUrl: 'https://www.tri.global/about-us/dr-joseph-montoya',  email: ''},
 	{ name: 'Kamal', lName: 'Choudhary', affiliation: 'NIST', image: './img/Speakers/Kamal Choudhary.jpeg' , profileUrl: 'https://www.nist.gov/people/kamal-choudhary',  email: 'kamal.choudhary@nist.gov'},
