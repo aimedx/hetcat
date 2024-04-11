@@ -20,8 +20,7 @@ a {
 	text-decoration: none;
 }
 .container {
-	min-height: 53vh;
-	padding-top: 77px;
+	min-height: 50vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
@@ -700,16 +699,14 @@ p {
 		padding: 0 50px;
 		justify-content: flex-start;
 	}
-	/* End Hero */
-
 	.container {
 		min-height: 40vh;
-		padding-top: 77px;
 		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
+	/* End Hero */
 
 	/* Services Section */
 	#services .service-bottom .service-item {
