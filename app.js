@@ -76,6 +76,7 @@ const presenters = [
 	{ name: 'Kasun', lName: 'Gunasooriya', affiliation: 'OU', image: './img/Presenters/Kasun Gunasooriya.jpeg', profileUrl: 'https://www.ou.edu/coe/scbme/people/faculty/gunasooriya',  email: 'kasun.gunasooriya@ou.edu' },
 	{ name: 'Pengfei', lName: 'Ou', affiliation: 'Northwestern', image: './img/Presenters/Pengfei Ou.jpeg' , profileUrl: 'https://light.northwestern.edu/team/dr-pengfei-ou/',  email: 'pengfei.ou@northwestern.edu'},
 	{ name: 'Tyler', lName: 'Josephson', affiliation: 'UMBC', image: './img/Presenters/Tyler Josephson.jpeg' , profileUrl: 'https://cbee.umbc.edu/josephson/',  email: 'tjo@umbc.edu'},
+	{ name: 'Yi-Lun', lName: 'Liao', affiliation: 'MIT', image: './img/Presenters/Yi-Lun Liao.jpeg' , profileUrl: 'https://www.linkedin.com/in/yilunliao/',  email: 'ylliao@mit.edu'},
 	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
