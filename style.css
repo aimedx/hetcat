@@ -1218,6 +1218,38 @@ p {
   }
 
 
+  #presenterCards {
+	/* Adjust max-height so 2.5 rows are visible */
+	max-height: 760px; /* e.g., if each card (with margin) is 320px tall */
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+  }
+  
+  #togglePresenterCards {
+	background-color: #3576c1;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	display: block; /* to make it a block-level element */
+	margin-left: auto;
+	margin-right: auto;
+  }
+  
+  #togglePresenterCards:hover {
+	background-color: #09223b; /* Darker shade on hover */
+	transform: translateY(-2px); /* Slight lift effect */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  }
+  
+  #togglePresenterCards:active {
+	background-color: #1d4561; /* Even darker shade when clicked */
+	transform: translateY(1px); /* Push down effect */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow for depth */
+  }
+
   .hotel-tabs {
 	display: flex;
 	justify-content: space-between;
