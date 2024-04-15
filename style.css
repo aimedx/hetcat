@@ -356,7 +356,7 @@ p {
 	align-items: flex-start;
 	justify-content: center;
 	flex-direction: column;
-	padding: 30px;
+	padding: 27px;
 	border-radius: 10px;
   }
   
@@ -1246,7 +1246,7 @@ p {
   
   #togglePresenterCards:active {
 	background-color: #1d4561; /* Even darker shade when clicked */
-	transform: translateY(1px); /* Push down effect */
+	transform: translateY(1px); /* Push down effect *
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow for depth */
   }
 
