@@ -13,7 +13,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #f4f7fa;
+    /* background-color: #f4f7fa; */
     line-height: 1.5;
 }
 a {
@@ -95,9 +95,9 @@ p {
 	height: auto;
 }
 #header .header {
-	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
-	transition: 0.3s ease background-color;
+	min-height: 3vh;
+	max-height: 8vh;
+	background-color: rgb(41, 50, 60);
 }
 #header .nav-bar {
 	display: flex;
@@ -157,8 +157,8 @@ p {
 	color: rgb(20, 157, 220);
 }
 #header .hamburger {
-	height: 60px;
-	width: 60px;
+	height: 50px;
+	width: 50px;
 	display: inline-block;
 	border: 3px solid white;
 	border-radius: 50%;
@@ -178,7 +178,7 @@ p {
 	width: 100%;
 	border-radius: 50%;
 	border: 3px solid white;
-	animation: hamburger_puls 1s ease infinite;
+	animation: hamburger_puls 1s ease 5;
 }
 #header .hamburger .bar {
 	height: 2px;
@@ -253,9 +253,14 @@ p {
 #hero {
 	background-image: url(./img/bg3.png);
 	background-size: cover;
-	background-position: top center;
+	background-position: center;
 	position: relative;
 	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	
 }
 #hero::after {
 	content: '';
@@ -264,12 +269,12 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(3, 27, 50);
+	/* background-color: #f4f7fa; */
 	opacity: 0.7;
 	z-index: -1;
 }
 #hero .hero {
-	max-width: 1200px;
+	max-width: 1400px;
 	margin: 0 auto;
 	justify-content: flex-start;
 }
@@ -302,7 +307,7 @@ p {
 	left: 0;
 	height: 100%;
 	width: 0;
-	background-color: rgb(20, 160, 220);
+	background-color: #1f204e;
 	animation: text_reveal_box 1s ease;
 	animation-delay: 0.5s;
 }
@@ -662,12 +667,12 @@ p {
 }
 @keyframes text_reveal {
 	100% {
-		color: white;
+		color: rgb(41, 50, 60);
 	}
 }
 @keyframes text_reveal_name {
 	100% {
-		color: rgb(20, 157, 220);
+		color: rgb(41, 50, 60);
 		font-weight: 500;
 	}
 }
@@ -694,7 +699,7 @@ p {
 		font-size: 2.5rem;
 	}
 	#hero .hero {
-		max-width: 1200px;
+		max-width: 1400px;
 		margin: 0 auto;
 		padding: 0 50px;
 		justify-content: flex-start;
@@ -1479,5 +1484,92 @@ p {
 	  display: none; /* This will also ensure the left column is not printed, regardless of screen size */
 	}
   }
+ 
+
+  .hero.container {
+	display: flex;
+	justify-content: space-between; /* Align items to the edges */
+	align-items: center;
+	max-width: 1400px; /* Adjust based on your design preference */
+	margin: auto; /* Center the container */
+  }
   
+  .hero-content {
+	display: flex;
+	align-items: center;
+	width: 100%;
+  }
+  
+  .hero-logo {
+	flex-shrink: 0; /* Prevent the logo from shrinking */
+	max-width: 200px; /* Adjust the maximum width as necessary */
+	margin-right: 5%; /* Right margin for spacing */
+  }
+  
+  .hero-logo img {
+	width: 100%; /* Make the image responsive within the container */
+	height: auto; /* Maintain aspect ratio */
+  }
+  
+  .hero-text {
+	flex-grow: 1; /* Allow the text to grow and fill available space */
+	display: flex;
+	flex-direction: column;
+	justify-content: center; /* Align text in the center vertically */
+  }
+  
+  .hero-text h1 {
+	font-size: 2.5rem; /* Adjust the font size to fit the content */
+	margin: 0; /* Remove default margins */
+	line-height: 1.2; /* Adjust line height for better readability */
+	color: #1f204e; /* Set text color */
+	overflow: hidden; /* Hide overflowed text */
+	text-overflow: ellipsis; /* Add ellipsis to overflowed text */
+  }
+  
+  @media (max-width: 1024px) {
+	.hero.container {
+	  padding: 0 20px; /* Reduce horizontal padding on smaller screens */
+	}
+  
+	.hero-content {
+	  flex-direction: column; /* Stack logo and text on smaller screens */
+	}
+  
+	.hero-logo {
+	  margin: 0 0 20px 0; /* Adjust margin for the stacked layout */
+	  max-width: 180px; /* Adjust the logo size on smaller screens */
+	}
+  
+	.hero-text h1 {
+	  font-size: 1.8rem; /* Reduce the font size on smaller screens */
+	  text-align: left; /* Center the text */
+	}
+  }
+  
+
+
+  .hero-text h1 {
+	font-size: 2.5rem; /* Adjust the font size as needed */
+	margin-bottom: 20px; /* Increase the bottom margin to add space between headings */
+	line-height: 1.1; /* Adjust line height for better readability */
+	color: #1f204e; /* Maintain text color */
+  }
+  
+  /* If you have separate h1, h2, etc., you can add margins specifically like: */
+  .hero-text h1 {
+	margin-bottom: 15px; /* Space below the main title */
+  }
+  
+  .hero-text h2 {
+	margin-bottom: 15px; /* Space below the subtitle or secondary title */
+  }
+  
+  /* For smaller screens */
+  @media (max-width: 768px) {
+	.hero-text h1 {
+	  font-size: 1.5rem; /* Smaller font size for smaller screens */
+	  margin-bottom: 15px; /* Slightly reduce bottom margin on small screens */
+	}
+  }
   
