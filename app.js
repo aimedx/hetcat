@@ -78,7 +78,8 @@ const presenters = [
 	{ name: 'Tyler', lName: 'Josephson', affiliation: 'UMBC', image: './img/Presenters/Tyler Josephson.jpeg' , profileUrl: 'https://cbee.umbc.edu/josephson/',  email: 'tjo@umbc.edu'},
 	{ name: 'Siwen', lName: 'Wang', affiliation: 'Toyota', image: './img/Presenters/Siwen Wang.jpeg' , profileUrl: 'https://www.researchgate.net/profile/Siwen-Wang-21',  email: 'siwen.wang@toyota.com'},
 	{ name: 'Yi-Lun', lName: 'Liao', affiliation: 'MIT', image: './img/Presenters/Yi-Lun Liao.jpeg' , profileUrl: 'https://www.linkedin.com/in/yilunliao/',  email: 'ylliao@mit.edu'},
-	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'}
+	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'},
+	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
 function renderCards(containerId, items) {
