@@ -1578,4 +1578,73 @@ p {
 	  margin-bottom: 15px; /* Slightly reduce bottom margin on small screens */
 	}
   }
+
+/* Sponsors Section Styles */
+#sponsors {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f4f4f4; /* Optional: Background color for the sponsors section */
+}
+
+#sponsors .section-title {
+  margin-bottom: 20px;
+  color: #333; /* Text color for the title */
+}
+
+#sponsors .sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#sponsors .sponsor-logos img {
+  max-width: 150px; /* Maximum width for sponsor logos */
+  height: auto; /* Maintain aspect ratio */
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  #sponsors .sponsor-logos img {
+    max-width: 100px; /* Smaller logos on smaller screens */
+  }
+}
+/* Sponsors Section Styles */
+#sponsors {
+	text-align: center;
+	padding: 75px 0;
+	background-color: #ffffff; /* Optional: adds a background color to the sponsor section */
+  }
+  
+  #sponsors .container {
+	display: block; /* Ensures that everything in the container stacks vertically */
+  }
+  
+  #sponsors .section-title {
+	margin-bottom: 20px; /* Space between the title and logos */
+	color: #333; /* Text color for the title */
+  }
+  
+  #sponsors .sponsor-logos {
+	display: flex;
+	flex-direction: row; /* Aligns items in a row */
+	flex-wrap: wrap; /* Allows multiple lines if more space is needed */
+	justify-content: center; /* Centers logos horizontally */
+	align-items: center; /* Aligns logos vertically */
+	gap: 20px; /* Space between logos */
+  }
+  
+  #sponsors .sponsor-logos img {
+	max-width: 300px; /* Maximum width for each logo */
+	height: auto; /* Ensures the height adjusts to maintain aspect ratio */
+	margin: 20px; /* Margin around each logo */
+  }
+  
+  @media (max-width: 768px) {
+	#sponsors .sponsor-logos img {
+	  max-width: 140px; /* Smaller logos on smaller screens */
+	}
+  }
+  
   
