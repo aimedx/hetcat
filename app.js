@@ -24,7 +24,38 @@ menu_item.forEach((item) => {
 	});
 });
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
+	// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+	
+
+
+
   const organizers = [
 	{ name: 'Hongliang', lName: 'Xin', affiliation: 'VT', image: './img/Hongliang Xin.jpeg', profileUrl: 'https://che.vt.edu/People/faculty/Xin.html', email: 'hxin@vt.edu' },
 	{ name: 'John', lName: 'Kitchin', affiliation: 'CMU', image: './img/John Kitchin.png', profileUrl: 'https://engineering.cmu.edu/directory/bios/kitchin-john.html',  email: 'jkitchin@andrew.cmu.edu'},
@@ -79,7 +110,8 @@ const presenters = [
 	{ name: 'Siwen', lName: 'Wang', affiliation: 'Toyota', image: './img/Presenters/Siwen Wang.jpeg' , profileUrl: 'https://www.researchgate.net/profile/Siwen-Wang-21',  email: 'siwen.wang@toyota.com'},
 	{ name: 'Yi-Lun', lName: 'Liao', affiliation: 'MIT', image: './img/Presenters/Yi-Lun Liao.jpeg' , profileUrl: 'https://www.linkedin.com/in/yilunliao/',  email: 'ylliao@mit.edu'},
 	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'},
-	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'}
+	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
+	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
 function renderCards(containerId, items) {
