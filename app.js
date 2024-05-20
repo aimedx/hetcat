@@ -80,7 +80,7 @@ window.onclick = function(event) {
 	{ name: 'Milad', lName: 'Abolhasani', affiliation: 'NCSU', image: './img/Speakers/Milad Abolhasani.jpeg' , profileUrl: 'https://www.cbe.ncsu.edu/person/mabolha/',  email: 'abolhasani@ncsu.edu'},
 	{ name: 'Paulami', lName: 'Majumdar', affiliation: 'Dow', image: './img/Speakers/Paulami Majumdar.jpeg' , profileUrl: 'https://www.linkedin.com/in/paulami-majumdar-42a95818/',  email: 'pmajumdar@dow.com'},
 	{ name: 'Paul', lName: 'Kenis', affiliation: 'UIUC', image: './img/Speakers/Paul Kenis.png' , profileUrl: 'https://chbe.illinois.edu/people/profile/kenis',  email: 'kenis@illinois.edu'},
-	{ name: 'Randall Meyer', lName: 'Meyer', affiliation: 'ExxonMobil', image: './img/Speakers/Randall Meyer.jpeg' , profileUrl: 'https://www.linkedin.com/in/randall-meyer-03131323a',  email: 'randall.j.meyer@exxonmobil.com'},
+	{ name: 'Randall', lName: 'Meyer', affiliation: 'ExxonMobil', image: './img/Speakers/Randall Meyer.jpeg' , profileUrl: 'https://www.linkedin.com/in/randall-meyer-03131323a',  email: 'randall.j.meyer@exxonmobil.com'},
 	{ name: 'Shyue Ping', lName: 'Ong', affiliation: 'UCSD', image: './img/Speakers/Shyue Ping Ong.jpeg' , profileUrl: 'https://jacobsschool.ucsd.edu/people/profile/shyue-ping-ong',  email: 's2ong@ucsd.edu'},
 	{ name: 'Stefano', lName: 'Curtarolo', affiliation: 'Duke', image: './img/Speakers/Stefano Curtarolo.jpeg' , profileUrl: 'https://mems.duke.edu/faculty/stefano-curtarolo',  email: 'stefano.curtarolo@duke.edu'},
 	{ name: 'Suljo', lName: 'Linic', affiliation: 'Michigan', image: './img/Speakers/Suljo Linic.jpeg' , profileUrl: 'https://che.engin.umich.edu/people/linic-suljo/',  email: 'linic@umich.edu'},
