@@ -88,7 +88,7 @@ window.onclick = function(event) {
 	{ name: 'Tian', lName: 'Xie', affiliation: 'Microsoft, UK', image: './img/Speakers/Tian Xie.jpeg' , profileUrl: 'https://www.microsoft.com/en-us/research/people/tianxie/',  email: 'tianxie@microsoft.com'},
 	{ name: 'Xiaonan', lName: 'Wang', affiliation: 'Tsinghua, China', image: './img/Speakers/Xiaonan Wang.jpeg' , profileUrl: 'https://www.smartsystemsengineering.com/',  email: 'wangxiaonan@tsinghua.edu.cn'},
 	{ name: 'Wendy', lName: 'Shaw', affiliation: 'PNNL', image: './img/Speakers/Wendy Shaw.jpeg' , profileUrl: 'https://www.pnnl.gov/people/wendy-shaw',  email: 'wendy.shaw@pnnl.gov'},
-	{ name: 'Zack', lName: 'Ulissi', affiliation: 'Meta', image: './img/Speakers/Zack Ulissi.jpeg' , profileUrl: 'https://zulissi.github.io/',  email: 'zulissi@meta.com'},
+	{ name: 'Zack', lName: 'Ulissi', affiliation: 'Meta/CMU', image: './img/Speakers/Zack Ulissi.jpeg' , profileUrl: 'https://zulissi.github.io/',  email: 'zulissi@meta.com'},
 	// { name: 'Nongnuch', lName: 'Artrith', affiliation: 'Utrecht', image: './img/Speakers/Nongnuch Artrith.jpeg' , profileUrl: 'https://www.uu.nl/staff/NArtrith',  email: 'n.artrith@uu.nl'},
 	{ name: 'Hao', lName: 'Li', affiliation: 'Tohoku', image: './img/Speakers/Hao Li.jpeg' , profileUrl: 'https://www.wpi-aimr.tohoku.ac.jp/en/research/researcher/li_h.html',  email: 'li.hao.b8@tohoku.ac.jp'},
 	{ name: 'Shijing', lName: 'Sun', affiliation: 'UW', image: './img/Speakers/Shijing Sun.jpeg' , profileUrl: 'https://www.me.washington.edu/facultyfinder/shijing-sun',  email: 'shijing@uw.edu'},
