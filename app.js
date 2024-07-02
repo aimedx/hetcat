@@ -93,11 +93,11 @@ window.onclick = function(event) {
 	{ name: 'Hao', lName: 'Li', affiliation: 'Tohoku', image: './img/Speakers/Hao Li.jpeg' , profileUrl: 'https://www.wpi-aimr.tohoku.ac.jp/en/research/researcher/li_h.html',  email: 'li.hao.b8@tohoku.ac.jp'},
 	{ name: 'Shijing', lName: 'Sun', affiliation: 'UW', image: './img/Speakers/Shijing Sun.jpeg' , profileUrl: 'https://www.me.washington.edu/facultyfinder/shijing-sun',  email: 'shijing@uw.edu'},
 	{ name: 'Chong', lName: 'Liu', affiliation: 'UCLA', image: './img/Speakers/Chong Liu.jpeg' , profileUrl: 'https://www.chemistry.ucla.edu/directory/liu-chong/',  email: 'chongliu@chem.ucla.edu'}
+	{ name: 'Marc', lName: 'Porosoff', affiliation: 'U of Rochester', image: './img/Presenters/Marc Porosoff.jpeg' , profileUrl: 'https://www.hajim.rochester.edu/che/people/faculty/porosoff_marc/index.html',  email: 'marc.porosoff@rochester.edu'},
 ].sort((a, b) => a.name.localeCompare(b.name));;
   
 
 const presenters = [
-	{ name: 'Marc', lName: 'Porosoff', affiliation: 'U of Rochester', image: './img/Presenters/Marc Porosoff.jpeg' , profileUrl: 'https://www.hajim.rochester.edu/che/people/faculty/porosoff_marc/index.html',  email: 'marc.porosoff@rochester.edu'},
 	{ name: 'Daniel', lName: 'Schwalbe-Koda', affiliation: 'UCLA', image: './img/Presenters/Daniel Schwalbe-Koda.jpeg' , profileUrl: 'https://samueli.ucla.edu/people/daniel-schwalbe-koda/',  email: 'dskoda@ucla.edu'},
 	{ name: 'Evan', lName: 'Spotte-Smith', affiliation: 'CMU', image: './img/Presenters/Evan Spotte-Smith.jpeg' , profileUrl: 'https://espottesmith.github.io/',  email: 'espottesmith@gmail.com'},
 	{ name: 'Tibor', lName: 'Szilvasi', affiliation: 'UA', image: './img/Presenters/Tibor Szilvasi.jpeg' , profileUrl: 'https://eng.ua.edu/eng-directory/dr-tibor-szilvasi/',  email: 'tszilvasi@ua.edu'},
@@ -111,6 +111,7 @@ const presenters = [
 	{ name: 'Siwen', lName: 'Wang', affiliation: 'Toyota', image: './img/Presenters/Siwen Wang.jpeg' , profileUrl: 'https://www.researchgate.net/profile/Siwen-Wang-21',  email: 'siwen.wang@toyota.com'},
 	{ name: 'Yi-Lun', lName: 'Liao', affiliation: 'MIT', image: './img/Presenters/Yi-Lun Liao.jpeg' , profileUrl: 'https://www.linkedin.com/in/yilunliao/',  email: 'ylliao@mit.edu'},
 	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'},
+	{ name: 'Ritesh', lName: 'Kumar', affiliation: 'UChicago', image: './img/Presenters/Ritesh Kumar.png , profileUrl: 'https://datascience.uchicago.edu/people/ritesh-kumar/',  email: 'riteshk@uchicago.edu'},
 	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
 	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
