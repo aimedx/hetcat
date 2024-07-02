@@ -76,7 +76,7 @@ window.onclick = function(event) {
 	{ name: 'Joseph', lName: 'Montoya', affiliation: 'TRI', image: './img/Speakers/Joseph Montoya.jpeg' , profileUrl: 'https://www.tri.global/about-us/dr-joseph-montoya',  email: ''},
 	{ name: 'Kamal', lName: 'Choudhary', affiliation: 'NIST', image: './img/Speakers/Kamal Choudhary.jpeg' , profileUrl: 'https://www.nist.gov/people/kamal-choudhary',  email: 'kamal.choudhary@nist.gov'},
 	{ name: 'Kirsten', lName: 'Winther', affiliation: 'SLAC', image: './img/Speakers/Kirsten Winther.jpeg' , profileUrl: 'https://suncat.stanford.edu/people/kirsten-winther',  email: 'winther@stanford.edu'},
-	{ name: 'Maria', lName: 'Chan', affiliation: 'ANL', image: './img/Speakers/Maria Chan.jpeg' , profileUrl: 'https://www.anl.gov/profile/maria-k-chan',  email: 'mchan@​anl.​gov'},
+	// { name: 'Maria', lName: 'Chan', affiliation: 'ANL', image: './img/Speakers/Maria Chan.jpeg' , profileUrl: 'https://www.anl.gov/profile/maria-k-chan',  email: 'mchan@​anl.​gov'},
 	{ name: 'Milad', lName: 'Abolhasani', affiliation: 'NCSU', image: './img/Speakers/Milad Abolhasani.jpeg' , profileUrl: 'https://www.cbe.ncsu.edu/person/mabolha/',  email: 'abolhasani@ncsu.edu'},
 	{ name: 'Paulami', lName: 'Majumdar', affiliation: 'Dow', image: './img/Speakers/Paulami Majumdar.jpeg' , profileUrl: 'https://www.linkedin.com/in/paulami-majumdar-42a95818/',  email: 'pmajumdar@dow.com'},
 	{ name: 'Paul', lName: 'Kenis', affiliation: 'UIUC', image: './img/Speakers/Paul Kenis.png' , profileUrl: 'https://chbe.illinois.edu/people/profile/kenis',  email: 'kenis@illinois.edu'},
@@ -93,7 +93,7 @@ window.onclick = function(event) {
 	{ name: 'Hao', lName: 'Li', affiliation: 'Tohoku', image: './img/Speakers/Hao Li.jpeg' , profileUrl: 'https://www.wpi-aimr.tohoku.ac.jp/en/research/researcher/li_h.html',  email: 'li.hao.b8@tohoku.ac.jp'},
 	{ name: 'Shijing', lName: 'Sun', affiliation: 'UW', image: './img/Speakers/Shijing Sun.jpeg' , profileUrl: 'https://www.me.washington.edu/facultyfinder/shijing-sun',  email: 'shijing@uw.edu'},
 	{ name: 'Chong', lName: 'Liu', affiliation: 'UCLA', image: './img/Speakers/Chong Liu.jpeg' , profileUrl: 'https://www.chemistry.ucla.edu/directory/liu-chong/',  email: 'chongliu@chem.ucla.edu'},
-	{ name: 'Marc', lName: 'Porosoff', affiliation: 'U of Rochester', image: './img/Presenters/Marc Porosoff.jpeg' , profileUrl: 'https://www.hajim.rochester.edu/che/people/faculty/porosoff_marc/index.html',  email: 'marc.porosoff@rochester.edu'}
+	{ name: 'Marc', lName: 'Porosoff', affiliation: 'U of Rochester', image: './img/Speakers/Marc Porosoff.jpeg' , profileUrl: 'https://www.hajim.rochester.edu/che/people/faculty/porosoff_marc/index.html',  email: 'marc.porosoff@rochester.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
   
 
