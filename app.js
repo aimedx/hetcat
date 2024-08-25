@@ -113,8 +113,12 @@ const presenters = [
 	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'},
 	{ name: 'Ritesh', lName: 'Kumar', affiliation: 'UChicago', image: './img/Presenters/Ritesh Kumar.png', profileUrl: 'https://datascience.uchicago.edu/people/ritesh-kumar/',  email: 'riteshk@uchicago.edu'},
 	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
+<<<<<<< HEAD
 	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'},
 	{ name: 'Jiayu', lName: 'Peng', affiliation: 'MIT', image: './img/Presenters/Jiayu Peng.jpeg' , profileUrl: 'https://jiayu-peng.com/',  email: ' jypeng@mit.edu'}
+=======
+	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'}
+>>>>>>> 557d276023d404bf314581c92cb9d0bbcd9c65ef
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
 function renderCards(containerId, items) {
