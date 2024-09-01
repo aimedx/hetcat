@@ -83,6 +83,7 @@ window.onclick = function(event) {
 	{ name: 'Randall', lName: 'Meyer', affiliation: 'ExxonMobil', image: './img/Speakers/Randall Meyer.jpeg' , profileUrl: 'https://www.linkedin.com/in/randall-meyer-03131323a',  email: 'randall.j.meyer@exxonmobil.com'},
 	{ name: 'Shyue Ping', lName: 'Ong', affiliation: 'UCSD', image: './img/Speakers/Shyue Ping Ong.jpeg' , profileUrl: 'https://jacobsschool.ucsd.edu/people/profile/shyue-ping-ong',  email: 's2ong@ucsd.edu'},
 	// { name: 'Stefano', lName: 'Curtarolo', affiliation: 'Duke', image: './img/Speakers/Stefano Curtarolo.jpeg' , profileUrl: 'https://mems.duke.edu/faculty/stefano-curtarolo',  email: 'stefano.curtarolo@duke.edu'},
+	{ name: 'Núria', lName: 'López', affiliation: 'ICIQ', image: './img/Nuria Lopez.jpeg', profileUrl: 'https://www.iciq.org/research/research_group/prof-nuria-lopez/',  email: 'nlopez@iciq.es' },
 	{ name: 'Suljo', lName: 'Linic', affiliation: 'Michigan', image: './img/Speakers/Suljo Linic.jpeg' , profileUrl: 'https://che.engin.umich.edu/people/linic-suljo/',  email: 'linic@umich.edu'},
 	{ name: 'Teodoro', lName: 'Laino', affiliation: 'IBM Research', image: './img/Speakers/Teodoro Laino.jpeg' , profileUrl: 'https://research.ibm.com/people/teodoro-laino',  email: 'teo@zurich.ibm.com'},
 	{ name: 'Tian', lName: 'Xie', affiliation: 'Microsoft, UK', image: './img/Speakers/Tian Xie.jpeg' , profileUrl: 'https://www.microsoft.com/en-us/research/people/tianxie/',  email: 'tianxie@microsoft.com'},
@@ -114,6 +115,7 @@ const presenters = [
 	{ name: 'Ritesh', lName: 'Kumar', affiliation: 'UChicago', image: './img/Presenters/Ritesh Kumar.png', profileUrl: 'https://datascience.uchicago.edu/people/ritesh-kumar/',  email: 'riteshk@uchicago.edu'},
 	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
 	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'},
+	{ name: 'Joseph', lName: 'Gauthier', affiliation: 'TTU', image: './img/Presenters/Joe Gauthier.png' , profileUrl: 'https://www.depts.ttu.edu/che/faculty/joseph_gauthier/index.php',  email: 'joe.gauthier@ttu.edu'},
 	{ name: 'Jiayu', lName: 'Peng', affiliation: 'MIT', image: './img/Presenters/Jiayu Peng.jpeg' , profileUrl: 'https://jiayu-peng.com/',  email: ' jypeng@mit.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
