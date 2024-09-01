@@ -115,7 +115,7 @@ const presenters = [
 	{ name: 'Ritesh', lName: 'Kumar', affiliation: 'UChicago', image: './img/Presenters/Ritesh Kumar.png', profileUrl: 'https://datascience.uchicago.edu/people/ritesh-kumar/',  email: 'riteshk@uchicago.edu'},
 	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
 	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'},
-	{ name: 'Joseph', lName: 'Gauthier', affiliation: 'TTU', image: './img/Presenters/Joe Gauthier.png' , profileUrl: 'https://www.depts.ttu.edu/che/faculty/joseph_gauthier/index.php',  email: 'joe.gauthier@ttu.edu'},
+	{ name: 'Joseph', lName: 'Gauthier', affiliation: 'TTU', image: './img/Presenters/Joe Gauthier.jpg' , profileUrl: 'https://www.depts.ttu.edu/che/faculty/joseph_gauthier/index.php',  email: 'joe.gauthier@ttu.edu'},
 	{ name: 'Jiayu', lName: 'Peng', affiliation: 'MIT', image: './img/Presenters/Jiayu Peng.jpeg' , profileUrl: 'https://jiayu-peng.com/',  email: ' jypeng@mit.edu'}
 ].sort((a, b) => a.name.localeCompare(b.name));;
 
