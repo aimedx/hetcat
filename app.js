@@ -90,6 +90,7 @@ window.onclick = function(event) {
 	{ name: 'Xiaonan', lName: 'Wang', affiliation: 'Tsinghua, China', image: './img/Speakers/Xiaonan Wang.jpeg' , profileUrl: 'https://www.smartsystemsengineering.com/',  email: 'wangxiaonan@tsinghua.edu.cn'},
 	{ name: 'Wendy', lName: 'Shaw', affiliation: 'PNNL', image: './img/Speakers/Wendy Shaw.jpeg' , profileUrl: 'https://www.pnnl.gov/people/wendy-shaw',  email: 'wendy.shaw@pnnl.gov'},
 	{ name: 'Zack', lName: 'Ulissi', affiliation: 'Meta/CMU', image: './img/Speakers/Zack Ulissi.jpeg' , profileUrl: 'https://zulissi.github.io/',  email: 'zulissi@meta.com'},
+	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Speakers/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
 	// { name: 'Nongnuch', lName: 'Artrith', affiliation: 'Utrecht', image: './img/Speakers/Nongnuch Artrith.jpeg' , profileUrl: 'https://www.uu.nl/staff/NArtrith',  email: 'n.artrith@uu.nl'},
 	{ name: 'Hao', lName: 'Li', affiliation: 'Tohoku', image: './img/Speakers/Hao Li.jpeg' , profileUrl: 'https://www.wpi-aimr.tohoku.ac.jp/en/research/researcher/li_h.html',  email: 'li.hao.b8@tohoku.ac.jp'},
 	{ name: 'Shijing', lName: 'Sun', affiliation: 'UW', image: './img/Speakers/Shijing Sun.jpeg' , profileUrl: 'https://www.me.washington.edu/facultyfinder/shijing-sun',  email: 'shijing@uw.edu'},
@@ -113,7 +114,6 @@ const presenters = [
 	{ name: 'Yi-Lun', lName: 'Liao', affiliation: 'MIT', image: './img/Presenters/Yi-Lun Liao.jpeg' , profileUrl: 'https://www.linkedin.com/in/yilunliao/',  email: 'ylliao@mit.edu'},
 	{ name: 'Rui', lName: 'Ding', affiliation: 'UChicago', image: './img/Presenters/Rui Ding.png' , profileUrl: 'https://datascience.uchicago.edu/people/rui-ding/',  email: 'ruiding@uchicago.edu'},
 	{ name: 'Ritesh', lName: 'Kumar', affiliation: 'UChicago', image: './img/Presenters/Ritesh Kumar.png', profileUrl: 'https://datascience.uchicago.edu/people/ritesh-kumar/',  email: 'riteshk@uchicago.edu'},
-	{ name: 'Long', lName: 'Qi', affiliation: 'Ames Lab', image: './img/Presenters/Long Qi.png' , profileUrl: 'https://www.ameslab.gov/directory/long-qi',  email: 'lqi@ameslab.gov'},
 	{ name: 'Mingjie', lName: 'Liu', affiliation: 'UF', image: './img/Presenters/Mingjie Liu.png' , profileUrl: 'https://www.chem.ufl.edu/about-all/directory/people/name/mingjie-liu/',  email: 'mliu@chem.ufl.edu'},
 	{ name: 'Joseph', lName: 'Gauthier', affiliation: 'TTU', image: './img/Presenters/Joe Gauthier.png' , profileUrl: 'https://www.depts.ttu.edu/che/faculty/joseph_gauthier/index.php',  email: 'joe.gauthier@ttu.edu'},
 	{ name: 'Jiayu', lName: 'Peng', affiliation: 'MIT', image: './img/Presenters/Jiayu Peng.jpeg' , profileUrl: 'https://jiayu-peng.com/',  email: ' jypeng@mit.edu'}
