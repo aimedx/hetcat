@@ -1,1 +1,1 @@
-AIMED Workshop
+AIMEDx Workshop
