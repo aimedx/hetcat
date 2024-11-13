@@ -329,6 +329,30 @@ p {
 
 /* End Hero Section */
 
+.download-btn {
+	display: inline-block;
+	padding: 15px 30px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	background-color: #007bff; /* Change this color to match your registration button */
+	border: none;
+	border-radius: 10px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 0.3s, transform 0.2s;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .download-btn:hover {
+	background-color: #0056b3; /* Darker shade on hover */
+	transform: translateY(-2px);
+  }
+  
+  .download-btn:active {
+	transform: translateY(0);
+  }
+  
 /* Services Section */
 #services .services {
 	flex-direction: column;
